@@ -11,7 +11,7 @@ const sendEmail = async (to, subject, html) => {
   try {
     const response = await axios.post('https://api.sendinblue.com/v3/smtp/email', data, {
       headers: {
-        'api-key': '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',
+        'api-key': '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',
         'Content-Type': 'application/json',
       },
     });
